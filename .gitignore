@@ -225,3 +225,5 @@ data/
 kaggle.json
 .env
 .ipynb_checkpoints/
+data/processed/*.parquet
+data/raw/
