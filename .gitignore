@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DS-311 project: private data and credentials
+data/
+*.csv
+kaggle.json
+.env
+.ipynb_checkpoints/
+data/processed/*.parquet
+data/raw/
