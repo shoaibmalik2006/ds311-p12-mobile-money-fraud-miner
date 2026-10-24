@@ -1,0 +1,13 @@
+#,Check,What we found,Decision
+1,Missing values,0 missing cells in total,No imputation needed
+2,Exact duplicate rows,0 duplicate rows,None to remove
+3,Allowed transaction types,0 unexpected types,None to fix
+4,Negative amounts or balances,0 negative values,None to fix
+5,Amount equal to 0,16 rows,Kept; reviewed in the fraud analysis (3.2) before any removal
+6,Time range (step),1 to 743 hourly steps,Valid range; used for hour/day features and the time-based split
+7,Label and flag values,0 invalid values,None to fix
+8,Sender balance does not add up,"3,779,503 rows (59.40% of all)",Kept (not errors to delete). Converted into balance-error features in Week 8; effect tested by ablation
+9,Sender balance 0 before a positive amount,"2,102,433 rows",Kept and flagged; possible signal and possible simulator artefact
+10,Recipient balance 0 before TRANSFER/CASH_OUT,"389,320 rows (14.05% of those types)",Kept; becomes the 'destination was empty' feature
+11,Account IDs repeat?,99.9% of senders and 83.1% of recipients appear once,IDs are not used as raw features. Account history features (expert module) only if repeats justify them
+12,Outliers in amount (IQR rule),"231,583 rows above the IQR fence; maximum 92,445,517",Kept: large amounts are legitimate and may carry fraud. Log scale for plots; scaling or robust models in Week 8
