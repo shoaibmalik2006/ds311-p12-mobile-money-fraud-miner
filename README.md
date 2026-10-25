@@ -7,9 +7,8 @@
 | Shoaib Malik (Team Leader) | Mining lead |
 | Uzair Kakar | Data lead |
 | Salman Hussian | Product lead |
+**Live app:** [Open the Streamlit App](https://ds311-p12-mobile-money-fraud-miner-pe5akije3qeqfkwdbynfma.streamlit.app/) · **Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shoaibmalik2006/ds311-p12-mobile-money-fraud-miner/blob/main/notebooks/NOTEBOOK_NAME.ipynb)
 
-**Live app:** [Open the Streamlit App](https://ds311-p12-mobile-money-fraud-miner-pe5akije3qeqfkwdbynfma.streamlit.app/) · **Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17x-KQSXtbwRbesvh-NgijLeZ4mfNIW25?authuser=1)
----
 
 # Project Proposal (M0)
 
